@@ -34,6 +34,8 @@ const { Client, Attachment, RichEmbed } = require('discord.js');
 // Create an instance of a Discord client
 const client = new Client();
 
+// Import the native fs module
+const fs = require('fs');
 /**
  * The ready event is vital, it means that only _after_ this will your bot start reacting to information
  * received from Discord
