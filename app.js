@@ -10,6 +10,12 @@ client.on('message', message => {
     // le robot répond pong !
     message.channel.send('Pong !');
   }
+  if (message.content === '!ftp') {
+    // le robot répond pong !
+    message.channel.send('Ex-coords', {
+      file: 'http://link.to/your.file' // Or replace with FileOptions object
+    });
+  }
 
   // Le robot lui répondra ceci si un utilisateur fait ?help
   if (message.content.startsWith(prefix + 'help')) {
