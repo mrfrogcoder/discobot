@@ -2,12 +2,13 @@
   "name": "Discobot",
   "version": "1.0.0",
   "description": "Discobot Frogcoder-Ground",
-  "main": "bot.js",
+  "main": "app.js",
   "repository": "git@github.com:mrfrogcoder/discobot.git",
   "author": "frogcoder",
   "license": "MIT",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
+    "discord.js": "^11.4.2",
     "winston": "^2.4.4"
   }
 }
