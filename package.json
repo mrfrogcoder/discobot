@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Discobot Frogcoder-Ground",
   "main": "bot.js",
-  "scripts": {
-    "starts": "node bot.js"
-  },
   "repository": "git@github.com:mrfrogcoder/discobot.git",
   "author": "frogcoder",
   "license": "MIT",
